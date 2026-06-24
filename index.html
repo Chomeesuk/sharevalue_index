@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="https://www.sharevaluecorp.com/assets/index.ec42c9bc.css"><link rel="stylesheet" href="https://www.sharevaluecorp.com/assets/app.723cc86e.css">
 
 <style>
-/* 1. 기본 동영상 및 텍스트 강제 숨김 처리 */
+/* 1. 기본 동영상 및 동영상 위에 뜨는 텍스트 레이어 완벽 차단 */
 main video, main iframe, video, iframe,
 main .pt-16\.5 + div, 
 main h1, 
@@ -28,10 +28,10 @@ main p.text-white {
     height: 0 !important; 
 }
 
-/* 2. 유저님이 주신 새로운 메인 배너 전용 고해상도 반응형 CSS */
+/* 2. 유저님이 제공하신 새 메인 배너 전용 CSS 설정 */
 .main-banner-container {
     width: 100%;
-    margin-top: 65px; /* 헤더 바 높이만큼 여백 확보 */
+    margin-top: 65px; /* 상단 헤더 영역 확보 */
     background-color: #ffffff;
     overflow: hidden;
     display: flex;
@@ -39,14 +39,14 @@ main p.text-white {
 }
 .main-replace-img {
     width: 100%;
-    max-width: 1920px; /* 데스크탑 최대 해상도 방어선 */
+    max-width: 1920px; /* 고해상도 모니터 왜곡 방지 */
     height: auto;
     display: block;
     object-fit: contain;
 }
 @media (min-width: 768px) {
     .main-banner-container {
-        margin-top: 80px; /* 데스크탑 전용 헤더 여백 조정 */
+        margin-top: 80px; /* 데스크탑 전용 상단 여백 조절 */
     }
 }
 </style>
