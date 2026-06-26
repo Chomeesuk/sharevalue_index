@@ -139,16 +139,21 @@
         .section-1[data-v-1804ae44], .section-2[data-v-1804ae44], .section-3[data-v-1804ae44] {
             scroll-snap-align: start;
         }
+        
+        /* 💻 PC 배너 이미지 설정 구역 (띄어쓰기 처리를 위해 따옴표 추가 완료) */
         .section-1[data-v-1804ae44] {
             background-color: #16b6dd;
-            background-image: url(./메인페이지 이미지2.png);
+            background-image: url('./메인페이지 이미지2.png');
             position: relative;
             text-align: left;
         }
+        
+        /* 📱 모바일 배너 이미지 설정 구역 */
         .section-1.mobile[data-v-1804ae44] {
-            background-image: url(./메인 모바일 이미지2.png);
+            background-image: url('./메인페이지 이미지2.png');
             text-align: center;
         }
+        
         .section-1.mobile .title[data-v-1804ae44] {
             top: calc(35.1% - 5em);
         }
@@ -334,7 +339,7 @@
             font-weight: 300;
         }
         
-        /* 유틸리티 및 공통 레이아웃 규칙 클래스들 */
+        /* 공통 레이아웃 규칙 클래스들 */
         *, :after, :before { box-sizing: border-box; border-width: 0; border-style: solid; border-color: currentColor }
         html { line-height: 1.5; -webkit-text-size-adjust: 100%; -moz-tab-size: 4; tab-size: 4; font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji" }
         body { margin: 0; line-height: inherit }
@@ -504,232 +509,4 @@
     <link type="font/woff2" rel="preload" href="https://static.smartbm.co.kr/fonts/woff2/NotoSansKR-Bold.woff2" as="font" crossorigin="true">
     <meta name="head:count" content="19">
     
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYhh0.ttf">
-    <link class="preload" as="font" crossorigin="anonymous" href="https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf">
-    <link rel="preload" as="font" crossorigin="anonymous" href="https://fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2K_c.ttf">
-</head>
-
-<body>
-    <div id="app" data-server-rendered="true">
-        <main class="text-center text-gray-700">
-            
-            <header class="text-xs md:text-xl py-0.75em md:py-5 bg-white transition-padding duration-700 w-full right-0 z-20 space-y-none shadow-md md:flex-row fixed" data-v-2f346f36="">
-                <div class="default-container flex flex-row items-center justify-between px-1em md:px-7.5" data-v-2f346f36="">
-                    <div class="py-2" data-v-2f346f36="">
-                        <a href="https://www.sharevaluecorp.com/" data-v-2f346f36="">
-                            <img src="/image/logo/ci.png" srcset="" width="147" height="31" alt="쉐어밸류" class="font-bold" data-v-2f346f36="">
-                        </a>
-                    </div>
-                    <div class="hidden md:inline-block navigation-area" data-v-2f346f36="">
-                        <nav data-v-2f346f36="">
-                            <a href="/engine" class="decoration-none mx-4" data-v-2f346f36=""><span data-v-2f346f36="">부킹엔진</span></a>
-                            <a href="/back-office" class="decoration-none mx-4" data-v-2f346f36=""><span data-v-2f346f36="">백오피스</span></a>
-                            <a href="/support" class="decoration-none mx-4" data-v-2f346f36=""><span data-v-2f346f36="">고객센터</span></a>
-                        </nav>
-                    </div>
-                    <div data-v-2f346f36="">
-                        <button type="button" class="hidden md:inline-block bg-primary-500 c-white btn contact-btn" data-v-2f346f36="">가입문의</button>
-                        <button type="button" class="inline-block md:hidden visible-btn" data-v-2f346f36="">≡</button>
-                    </div>
-                </div>
-                
-                <div style="display:none" class="inline-block md:hidden text-left shadow-lg bg-white menu-modal" data-v-2f346f36="">
-                    <div class="navigation-area" data-v-2f346f36="">
-                        <nav class="flex flex-col" data-v-2f346f36="">
-                            <a href="/engine" class="decoration-none px-7.5" data-v-2f346f36="">
-                                <div class="flex flex-row items-center h-full" data-v-2f346f36="">
-                                    <img src="/image/icon/ico_black_engine.webp" width="25" height="30" alt="icon" class="mr-3" data-v-2f346f36="">
-                                    <span data-v-2f346f36="">부킹엔진</span>
-                                </div>
-                            </a>
-                            <a href="/back-office" class="decoration-none px-7.5" data-v-2f346f36="">
-                                <div class="flex flex-row items-center h-full" data-v-2f346f36="">
-                                    <img src="/image/icon/ico_black_back-office.webp" width="25" height="30" alt="icon" class="mr-3" data-v-2f346f36="">
-                                    <span data-v-2f346f36="">백오피스</span>
-                                </div>
-                            </a>
-                            <a href="/support" class="decoration-none px-7.5" data-v-2f346f36="">
-                                <div class="flex flex-row items-center h-full" data-v-2f346f36="">
-                                    <img src="/image/icon/ico_black_support.webp" width="25" height="30" alt="icon" class="mr-3" data-v-2f346f36="">
-                                    <span data-v-2f346f36="">고객센터</span>
-                                </div>
-                            </a>
-                        </nav>
-                    </div>
-                    <div class="flex flex-col menu-modal-btn-area" data-v-2f346f36="">
-                        <button type="button" class="bg-primary-500 c-white h-60px" data-v-2f346f36="">가입문의</button>
-                    </div>
-                </div>
-            </header>
-            
-            <div class="pt-16.5 md:pt-22.5">
-                
-                <div class="section-1 use-full-bg-image hidden md:block" data-v-1804ae44="">
-                    <div class="px-5 default-container" data-v-1804ae44="">
-                        <div class="text-3xl md:text-5xl title" data-v-1804ae44="">
-                            부킹 엔진으로 쉽고 빠른 상품 판매와<br data-v-1804ae44="">
-                            <b class="c-secondary-500" data-v-1804ae44="">실시간 전자결제</b>까지 한 번에!
-                        </div>
-                        <div class="description" data-v-1804ae44="">
-                            개인(B2C) 및 기업체(B2B) 모든 잠재 고객에게 예약, 결제서비스를 제공하고<br data-v-1804ae44="">
-                            판매 정산과 고객관리만 하세요.
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="section-1 mobile use-full-bg-image md:hidden" data-v-1804ae44="">
-                    <div class="px-5 default-container" data-v-1804ae44="">
-                        <div class="text-3xl md:text-5xl title" data-v-1804ae44="">
-                            부킹 엔진으로 쉽고 빠른<br data-v-1804ae44="">
-                            상품 판매와 <b class="c-secondary-500" data-v-1804ae44="">실시간 전자결제</b><br data-v-1804ae44="">
-                            까지 한 번에!
-                        </div>
-                        <div class="description" data-v-1804ae44="">
-                            개인(B2C) 및 기업체(B2B) 모든 잠재 고객에게<br data-v-1804ae44="">
-                            예약, 결제서비스를 제공하고<br data-v-1804ae44="">
-                            판매 정산과 고객관리만 하세요.
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="py-25 md:py-50 section-2" data-v-1804ae44="">
-                    <div class="px-5 default-container" data-v-1804ae44="">
-                        <div class="text-2xl md:text-5xl title" data-v-1804ae44="">
-                            <div class="title-eng md:inline-block" data-v-1804ae44="">Our Solution&nbsp;=&nbsp;</div>
-                            <div class="md:inline-block" data-v-1804ae44="">클라우드서비스 +@ 운영지원</div>
-                        </div>
-                        <div class="text-lg md:text-xl description" data-v-1804ae44="">
-                            <div data-v-1804ae44="">30년 여행사에서의 업무 노하우를 바탕으로 모든 고객의 니즈에 맞는 맞춤 솔루션을 비용과 시간을 절약할 수 있는 클라우드서비스로 제공하며 운영 업무도 지원합니다.</div>
-                        </div>
-                        <div class="px-0 md:px-24 content flex flex-col text-xs lg:flex-row lg:text-sm xl:text-base justify-evenly items-center" data-v-1804ae44="">
-                            <div class="w-full lg:w-auto flex flex-row items-center justify-between" data-v-1804ae44="">
-                                <div class="p-5 lg:p-7.5 icon-block bg-primary-500 c-white" data-v-1804ae44="">
-                                    <div class="mb-4 lg:mb-5 xl:mb-6" data-v-1804ae44=""><img src="/image/icon/ico_white_computer.webp" width="48" height="50" alt="개발" data-v-1804ae44=""></div>
-                                    <div class="icon-title" data-v-1804ae44="">개발</div>
-                                    <div class="icon-description" data-v-1804ae44="">Development</div>
-                                </div>
-                                <div class="plus-icon lg-mx-6 xl-mx-12" data-v-1804ae44="">+</div>
-                                <div class="p-5 lg:p-7.5 icon-block bg-primary-500 c-white" data-v-1804ae44="">
-                                    <div class="mb-4 lg:mb-5 xl:mb-6" data-v-1804ae44=""><img src="/image/icon/ico_white_map-home.webp" width="39" height="50" alt="인프라" data-v-1804ae44=""></div>
-                                    <div class="icon-title" data-v-1804ae44="">인프라</div>
-                                    <div class="icon-description" data-v-1804ae44="">Infrastructure</div>
-                                </div>
-                            </div>
-                            <div class="w-full lg:w-auto flex flex-row-reverse items-center justify-between" data-v-1804ae44="">
-                                <div class="plus-icon mr-16 my-5 lg:my-0 lg-mx-6 xl-mx-12" data-v-1804ae44="">+</div>
-                            </div>
-                            <div class="w-full lg:w-auto flex flex-row-reverse lg:flex-row items-center justify-between" data-v-1804ae44="">
-                                <div class="p-5 lg:p-7.5 icon-block bg-primary-500 c-white" data-v-1804ae44="">
-                                    <div class="mb-4 lg:mb-5 xl:mb-6" data-v-1804ae44=""><img src="/image/icon/ico_white_engineer.webp" width="53" height="50" alt="전문인력" data-v-1804ae44=""></div>
-                                    <div class="icon-title" data-v-1804ae44="">전문인력</div>
-                                    <div class="icon-description" data-v-1804ae44="">IT Resource</div>
-                                </div>
-                                <div class="at-icon c-secondary-500 lg-mx-6 xl-mx-12" data-v-1804ae44="">@</div>
-                                <div class="p-5 lg:p-7.5 icon-block bg-secondary-500 c-white" data-v-1804ae44="">
-                                    <div class="mb-4 lg:mb-5 xl:mb-6" data-v-1804ae44=""><img src="/image/icon/ico_white_graph.webp" width="66" height="50" alt="운영 지원" data-v-1804ae44=""></div>
-                                    <div class="icon-title" data-v-1804ae44="">운영지원</div>
-                                    <div class="icon-description" data-v-1804ae44="">Operation</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="section-3 py-25 md:py-50" data-v-1804ae44="">
-                    <div class="px-5 default-container" data-v-1804ae44="">
-                        <div class="text-2xl md:text-4xl title" data-v-1804ae44="">
-                            <div data-v-1804ae44 Mini="">(주)쉐어밸류는 다양한 고객 및 파트너와</div>
-                            <div data-v-1804ae44="">여행 디지털 서비스의 가치를 공유합니다.</div>
-                        </div>
-                        <div class="content flex justify-center md:justify-between items-center" data-v-1804ae44="">
-                            <div class="text-center text-xl mb-10 md:mb-0 md:text-left md:text-4xl slogans" data-v-1804ae44="">
-                                <div data-v-1804ae44="">TO BE AND WE DO</div>
-                                <div data-v-1804ae44="">ANY TIME</div>
-                                <div data-v-1804ae44="">ANY PRODUCTS</div>
-                                <div data-v-1804ae44="">ANY PARTNER</div>
-                                <div data-v-1804ae44="">ANY FUNCTION</div>
-                                <div data-v-1804ae44="">ANY CUSTOMIZATION</div>
-                                <div data-v-1804ae44="">ANY WORK</div>
-                            </div>
-                            <div class="w-100% h-100% text-xs px-5 py-5 sm:text-sm md:w-800px md:h-800px md:text-2xl roadmap-circle-area flex justify-center items-center" data-v-1804ae44="">
-                                <div class="w-75vw h-75vw md:w-600px md:h-600px roadmap-circle" data-v-1804ae44=""></div>
-                                <div class="w-8em h-8em roadmap-stage oclock-12" data-v-1804ae44="">Our<br data-v-1804ae44="">Development</div>
-                                <div class="w-8em h-8em roadmap-stage oclock-1-5" data-v-1804ae44="">B2C<br data-v-1804ae44="">Booking</div>
-                                <div class="w-8em h-8em roadmap-stage oclock-3" data-v-1804ae44="">B2B<br data-v-1804ae44="">Booking</div>
-                                <div class="w-8em h-8em roadmap-stage oclock-4-5" data-v-1804ae44="">BTMS<br data-v-1804ae44="">Booking</div>
-                                <div class="w-8em h-8em roadmap-stage oclock-6" data-v-1804ae44=""><div data-v-1804ae44="">PG</div><div class="stage-description" data-v-1804ae44="">(Payment Gateway)</div></div>
-                                <div class="w-8em h-8em roadmap-stage oclock-7-5" data-v-1804ae44=""><div data-v-1804ae44="">PMS</div><div class="stage-description" data-v-1804ae44="">(Property Management System)</div></div>
-                                <div class="w-8em h-8em roadmap-stage oclock-9" data-v-1804ae44="">Business<br data-v-1804ae44="">Agent</div>
-                                <div class="w-8em h-8em roadmap-stage oclock-10-5" data-v-1804ae44="">Dynamic<br data-v-1804ae44="">Package<br data-v-1804ae44="">Booking</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <footer class="md:rtl:pr-20 duration-700 w-full right-0 items-center justify-center md:justify-between md:space-y-none md:h-16 md:flex-row" data-v-7321c33a="">
-                <div class="bg-secondary-500 text-white" data-v-7321c33a="">
-                    <div class="default-container footer-company" data-v-7321c33a="">
-                        <div class="flex flex-row justify-between mb-6" data-v-7321c33a="">
-                            <div class="text-sm md:text-lg footer-company-name" data-v-7321c33a="">(주) 쉐어밸류</div>
-                            <div class="footer-company-sns" data-v-7321c33a="">
-                                <a href="https://blog.naver.com/sharevaluecorp" class="inline-block external-link px-2" data-v-7321c33a="">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" viewBox="0 0 512 512" aria-labelledby="blog_icon_title" data-v-7321c33a=""><desc id="blog_icon_title" data-v-7321c33a="">blog</desc><path d="M192 32c0 17.7 14.3 32 32 32c123.7 0 224 100.3 224 224c0 17.7 14.3 32 32 32s32-14.3 32-32C512 128.9 383.1 0 224 0c-17.7 0-32 14.3-32 32zm0 96c0 17.7 14.3 32 32 32c70.7 0 128 57.3 128 128c0 17.7 14.3 32 32 32s32-14.3 32-32c0-106-86-192-192-192c-17.7 0-32 14.3-32 32zM96 144c0-26.5-21.5-48-48-48S0 117.5 0 144V368c0 79.5 64.5 144 144 144s144-64.5 144-144s-64.5-144-144-144H128v96h16c26.5 0 48 21.5 48 48s-21.5 48-48 48s-48-21.5-48-48V144z" data-v-7321c33a=""></path></svg>
-                                </a>
-                                <a href="https://www.youtube.com/channel/UC7oNi16xzMz4b043bucT5ww" class="inline-block external-link px-2" data-v-7321c33a="">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="37.5" viewBox="0 0 576 512" data-v-7321c33a=""><desc id="youtube_icon_title" data-v-7321c33a="">youtube</desc><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" data-v-7321c33a=""></path></svg>
-                                </a>
-                                <a href="https://www.facebook.com/sharevaluecorp/" class="inline-block external-link px-2" data-v-7321c33a="">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" viewBox="0 0 512 512" aria-labelledby="fb_icon_title" data-v-7321c33a=""><desc id="fb_icon_title" data-v-7321c33a="">facebook</desc><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" data-v-7321c33a=""></path></svg>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="text-xs md:text-base footer-company-desc text-left" data-v-7321c33a="">
-                            <div>
-                                <div class="block md:inline-block" data-v-7321c33a="">사업자등록번호 : 750-86-00899</div>
-                                <span class="hidden md:inline" data-v-7321c33a="">|</span>
-                                <div class="block md:inline-block" data-v-7321c33a="">통신판매업번호 : 제2020-서울중구-1067호</div>
-                            </div>
-                            <div>
-                                <div class="block md:inline-block" data-v-7321c33a="">주소 : 서울특별시 중구 정동길 35, 3층 302호(정동, 두비빌딩)</div>
-                                <span class="hidden md:inline" data-v-7321c33a="">|</span>
-                                <div class="block md:inline-block" data-v-7321c33a="">대표 : 조미숙</div>
-                            </div>
-                            <div class="text-xs md:text-sm copyright" data-v-7321c33a="">Copyright 2020 Sharevalue Co., Ltd. All rights reserved</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="bg-white" data-v-7321c33a="">
-                    <div class="flex-wrap md:flex-nowrap text-xs md:text-sm tracking-tighter md:tracking-tight flex flex-row md:justify-between items-center text-center footer-record" data-v-7321c33a="">
-                        <div class="items-center text-center mb-5 md:mb-0" data-v-7321c33a="">
-                            <img src="/image/logo/klbo.webp" width="119" height="30" alt="로고" class="inline-block" data-v-7321c33a="">
-                            <div data-v-7321c33a="">기술벤처인증기업</div>
-                        </div>
-                        <div class="items-center text-center mb-5 md:mb-0" data-v-7321c33a="">
-                            <img src="/image/logo/koita.webp" width="51" height="30" alt="로고" class="inline-block" data-v-7321c33a="">
-                            <div data-v-7321c33a="">기업부설연구소 인증기업</div>
-                        </div>
-                        <div class="items-center text-center" data-v-7321c33a="">
-                            <img src="/image/logo/startup.webp" width="29" height="30" alt="로고" class="inline-block" data-v-7321c33a="">
-                            <div data-v-7321c33a="">초기관광벤처기업</div>
-                        </div>
-                        <div class="items-center text-center" data-v-7321c33a="">
-                            <img src="/image/logo/iata.webp" width="47" height="30" alt="로고" class="inline-block" data-v-7321c33a="">
-                            <div data-v-7321c33a="">International Air Transport Association</div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            
-            <div class="kakao-channel" data-v-3be7226d="">
-                <a href="http://pf.kakao.com/_QyEss/chat" data-v-3be7226d="">
-                    <p data-v-3be7226d="">카카오톡 상담하기</p>
-                    <img src="/image/logo/kakao-logo-yellow.png" alt="kakaotalk" width="60" height="60" data-v-3be7226d="">
-                </a>
-            </div>
-        </main>
-    </div>
-    <link rel="stylesheet" href="/assets/app.723cc86e.css">
-</body>
-</html>
+    <link rel="preload" as="font" crossorigin="anonymous" href="https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1
